@@ -1,0 +1,19 @@
+{
+    "sip":16,
+    "name":"Audio #1",
+    "properties":{"collection":"AudioNFT"},
+    "description":"Meet Mojo, an orange block with a lot of swag and even more love for Bitcoin. Cute, fierce, determined and…very orange; Mojo is a beacon for Bitcoin builders and layers the world over.",
+    "size":2500,
+    "price":"3.12009",
+    "external_url":"https://stacks.co",
+    "attributes":[
+        {"trait":"Background","value":"Violet"},
+        {"trait":"Base","value":"Bitcoin Orange 2"},
+        {"trait":"Upper Body","value":"Kimono Red"},
+        {"trait":"Eyes","value":"Cycling Shades"},
+        {"trait":"Mouth","value":"Frown"},
+        {"trait":"Head","value":"Afro"}
+    ],
+    "asset_type":"audio/mp3",
+    "audio": "https://ipfs.io/ipfs/QmNp4zGXnKWT2FzCHyCPJJZsfKFZ8Kw9eWGtMy964LN4Fy"
+}
