@@ -7,7 +7,7 @@ import path from 'path';
 import { PORT, connectMongoDB } from "./config";
 import http from "http";
 import { UserRouter } from "./routes";
-import { getTokenUri, mint, nftDeploy, traitDeploy, transfer } from "./controller/mintController";
+import { getTokenUri, mint, sOrdinalDeploy, transfer } from "./controller/mintController";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
 const server = http.createServer(app);
 // tokenLaunc();
-mint()
+mint();
 // Define routes for different API endpoints
 app.use("/api/users", UserRouter);
 
